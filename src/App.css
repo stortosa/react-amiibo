@@ -1,33 +1,32 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.wrap{
+  flex-wrap: wrap;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*para las imagenes de amiibos*/
+.amii {
+  width: 120px;
+  height: 170px;
+}
+.click {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.grid {
+  display: grid;
+  margin-right: 10px;
+  /* width: 200p  x; */
+  grid-template-areas: "head head"
+                       "menu main"
+                       "foot foot";
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+.a { background: rgb(147, 147, 219); border: 1px solid; border-radius: 15px; box-shadow: 5px 10px #888}
+.b { background: rgb(219, 178, 178); border: 1px solid; border-radius: 15px; box-shadow: 5px 10px #888}
+.c { background: rgb(155, 190, 155); border: 1px solid; border-radius: 15px; box-shadow: 5px 10px #888}
+.d { background: rgb(250, 216, 154); border: 1px solid; border-radius: 15px; box-shadow: 5px 10px #888}
+
