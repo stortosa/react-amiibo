@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default class Nav extends Component {
   render() {
     const navStyle = {
-      color: 'white'
+      color: 'black',
     };
 
     return (
